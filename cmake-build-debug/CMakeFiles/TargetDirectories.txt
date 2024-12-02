@@ -1,0 +1,3 @@
+D:/FACULDADE/2024-2025/LP1-AED1/PROJETO_FINAL/Jardim_de_Strings/cmake-build-debug/CMakeFiles/untitled.dir
+D:/FACULDADE/2024-2025/LP1-AED1/PROJETO_FINAL/Jardim_de_Strings/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/FACULDADE/2024-2025/LP1-AED1/PROJETO_FINAL/Jardim_de_Strings/cmake-build-debug/CMakeFiles/rebuild_cache.dir
