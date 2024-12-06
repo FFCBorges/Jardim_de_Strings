@@ -18,9 +18,6 @@ typedef struct {
 
 StringMatrix* createMatrix();
 void resizeMatrix(StringMatrix *matrix);
-void addString(StringMatrix *matrix, const char *string);
-void listStrings(const StringMatrix *matrix);
-void freeMatrix(StringMatrix *matrix);
 int main_cliente();
 
 #endif //FASE_01_H

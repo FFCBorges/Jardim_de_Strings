@@ -43,18 +43,7 @@ int main_cliente() {
     // Criação da matriz
     StringMatrix *matrix = createMatrix();
 
-    // Inicialização estática
-    printf("Inicializando matriz com strings predefinidas:\n");
-    addString(matrix, "germinar");
-    addString(matrix, "germinacao");
-    addString(matrix, "germinada");
-    addString(matrix, "germ");
 
-    // Listar strings
-    listStrings(matrix);
-
-    // Liberar memória
-    freeMatrix(matrix);
     return 0;
 }
 
