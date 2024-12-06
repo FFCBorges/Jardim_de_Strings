@@ -1,14 +1,12 @@
 #include "fase_01.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
-#include <time.h>
 
 #define INITIAL_CAPACITY 10  // Tamanho inicial da matriz dinâmica
 #define MAX_STRING_LENGTH 1000  // Tamanho máximo de cada string
 
 
-// Função que cria a matriz
+// cria a matriz
 StringMatrix* createMatrix() {
     StringMatrix *matrix = (StringMatrix *)malloc(sizeof(StringMatrix));
     if (!matrix) {
@@ -26,7 +24,7 @@ StringMatrix* createMatrix() {
     return matrix;
 }
 
-// Função para redimensionar a matriz de forma dinâmica
+// redimensiona a matriz
 void resizeMatrix(StringMatrix *matrix) {
     matrix->capacity *= 2;  // Dobra a capacidade
     matrix->data = (char **)realloc(matrix->data, matrix->capacity * sizeof(char *));
