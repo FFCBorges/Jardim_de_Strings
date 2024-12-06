@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define INITIAL_CAPACITY 10  // Tamanho inicial da matriz dinâmica
-#define MAX_STRING_LENGTH 1000  // Tamanho máximo de cada string
+#define INITIAL_CAPACITY 10
+#define MAX_STRING_LENGTH 1000
 
 
 // cria a matriz

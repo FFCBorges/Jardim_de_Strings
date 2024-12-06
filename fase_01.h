@@ -4,11 +4,11 @@
 #define INITIAL_CAPACITY 10
 #define MAX_STRING_LENGTH 1000
 
-// Estrutura para representar a matriz dinâmica de strings
+// matriz dinâmica de strings
 typedef struct {
-    char **data;      // Apontador para a matriz de strings
-    int size;         // Número de strings armazenadas
-    int capacity;     // Capacidade total da matriz
+    char **data;
+    int size;
+    int capacity;
 } StringMatrix;
 
 
