@@ -5,4 +5,22 @@
 #ifndef FASE_01_H
 #define FASE_01_H
 
+#define INITIAL_CAPACITY 10
+#define MAX_STRING_LENGTH 1000
+
+// Estrutura para representar a matriz dinâmica de strings
+typedef struct {
+    char **data;      // Apontador para a matriz de strings
+    int size;         // Número de strings armazenadas
+    int capacity;     // Capacidade total da matriz
+} StringMatrix;
+
+
+StringMatrix* createMatrix();
+void resizeMatrix(StringMatrix *matrix);
+void addString(StringMatrix *matrix, const char *string);
+void listStrings(const StringMatrix *matrix);
+void freeMatrix(StringMatrix *matrix);
+int main_cliente();
+
 #endif //FASE_01_H
